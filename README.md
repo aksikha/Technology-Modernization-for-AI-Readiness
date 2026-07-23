@@ -1,233 +1,116 @@
-# Process and Controls
+# Technology Modernization for AI Readiness
 
-Modernization requires a transparent workflow that moves routine work quickly while applying stronger controls to changes with greater business, architecture, security, data, or financial risk.
+A step-by-step technical architecture for modernizing enterprise technology while protecting business continuity, controlling cost, and preparing the organization to use AI responsibly at scale.
 
-The objective is not to add more approvals. It is to apply the **right level of control based on risk**.
+## Who This Guide Is For
 
-## Common Current-State Challenges
+This guide is written for executives and technology leaders responsible for modernizing complex environments while maintaining operational stability.
 
-- Work enters through multiple channels without consistent information or ownership.
-- Priorities may be determined by influence rather than measurable business impact.
-- Estimates and milestones may be based on incomplete assumptions.
-- Delivery dates may move without assessing customer, financial, regulatory, architecture, or operational impact.
-- Business stakeholders may have limited visibility into status and decisions.
-- Simple, low-risk changes may be delayed by unnecessary approval gates.
-- High-risk changes may proceed without sufficient architecture, security, quality, or business review.
-
----
-
-## Step 4 — Create One Transparent Intake and Classification Path
-
-### Action
-
-Route the following work through a common intake process:
-
-- Incidents
-- Enhancements
-- Architecture requests
-- Data and AI requests
-- Major programs and projects
-
-Each request should include the business outcome, impact, urgency, ownership, dependencies, data sensitivity, architecture impact, and expected value.
-
-### Technical Outputs
-
-- Standard intake form
-- Work-classification rules
-- Routing logic
-- Assigned ownership
-- Visible enterprise backlog
-- Decision and approval timestamps
-
-### Expected Outcome
-
-Less work is lost in email or informal channels, and business and technology teams see the same demand picture.
+| Audience | Primary Value |
+|---|---|
+| **CEO / Board** | Understand the sequence, investment logic, business outcomes, risk, and governance required for modernization |
+| **CIO / CTO / CDO** | Translate business strategy into a governed modernization architecture and measurable execution roadmap |
+| **CFO / Finance Leadership** | Connect portfolio decisions, total cost of ownership, FinOps, and AI cost controls to measurable value |
+| **Enterprise Architects** | Define current, target, and transition architectures, dependencies, standards, and rationalization decisions |
+| **Engineering / Operations Leaders** | Establish practical ownership, intake, service levels, release controls, observability, automation, and AI-enabled delivery |
 
 ---
 
-## Step 5 — Define Service Levels and Severity Using Business Impact
+## The Central Principle
 
-### Action
+> Modernization should not begin with a cloud product, an AI model, or a new platform.
 
-Set response and restoration expectations based on:
+It should begin by establishing accountable people and practical processes, followed by visibility into the technology stack.
 
-- Business criticality
-- Customer impact
-- Safety impact
-- Financial exposure
-- Regulatory impact
-- Data sensitivity
-- Availability of a workaround
-
-### Technical Outputs
-
-- Priority and severity definitions
-- SLO and SLA targets
-- Escalation rules
-- Communication templates
-- Operational dashboards
-
-### Expected Outcome
-
-The most damaging issues are addressed first, expectations are clear, and operational performance becomes measurable.
+Only after the organization understands what it owns, how systems connect, what they cost, and which capabilities matter should it rationalize the portfolio, define target and transition architectures, and use AI to accelerate modernization.
 
 ---
 
-## Step 6 — Create Risk-Based Change and Delivery Paths
-
-### Action
-
-Separate changes into three paths:
-
-- **Standard changes:** Repeatable, low-risk, tested, and preapproved.
-- **Normal changes:** Require review proportional to business, architecture, security, data, quality, and financial impact.
-- **Emergency changes:** Use an expedited path to restore service but require a post-implementation review.
-
-### Technical Outputs
-
-- Change-classification decision tree
-- Approval matrix
-- Automated quality and security checks
-- Release-evidence requirements
-- Rollback requirements
-- Post-implementation review process
-
-### Expected Outcome
-
-Low-risk work moves faster while high-risk work receives appropriate control.
-
----
-
-## Step 7 — Govern the Investment Portfolio and Measure Outcomes
-
-### Action
-
-Review technology demand as one enterprise portfolio rather than as unrelated requests.
-
-- Apply common decision criteria.
-- Compare investments side by side.
-- Sequence work based on value, risk, dependencies, capacity, and readiness.
-- Refresh portfolio decisions quarterly.
-- Track reliability, delivery, quality, financial, risk, and workforce measures.
-
-### Technical Outputs
-
-- Annual technology portfolio
-- Quarterly portfolio rebalancing
-- Capacity and resource plan
-- Multiyear funding view
-- Benefit-realization measures
-- Executive performance dashboard
-
-### Expected Outcome
-
-Investment moves toward the highest-value work with transparent tradeoffs and measurable results.
-
----
-
-## Risk-Based Work Intake and Delivery Flow
+## Modernization Architecture at a Glance
 
 ```mermaid
 flowchart LR
-    A["1. Request<br/>Business outcome, impact, urgency, owner"]
-    B["2. Triage<br/>Validate and classify the work"]
-    C["3. Route<br/>Incident, enhancement, architecture, data/AI, or program"]
-    D["4. Deliver<br/>Design, build, test, and validate"]
-    E["5. Release<br/>Risk-based approval and deployment"]
-    F["6. Measure<br/>Outcome, quality, cost, and learning"]
+    A["People and Governance<br/>Ownership, decision rights, skills, accountability"]
+    B["Process and Controls<br/>Intake, service levels, risk-based delivery, portfolio governance"]
+    C["Technology Visibility<br/>Assets, dependencies, data flows, cost, risk, lifecycle"]
+    D["Portfolio and Architecture<br/>Rationalization, target state, transition states, modernization waves"]
+    E["AI-Enabled Modernization<br/>Discovery, engineering, testing, migration, operations"]
+    F["Business Outcomes<br/>Speed, resilience, cost control, risk reduction, AI readiness"]
 
     A --> B --> C --> D --> E --> F
 ```
 
-> **Control principle:** Standard changes should move quickly. Higher-risk changes should receive proportionate architecture, security, quality, data, and business review.
+The sequence is deliberate: fix accountability and process friction first, then expose and rationalize the technology estate, define the architecture, and finally apply AI at scale.
 
 ---
 
-## Service-Level Framework
+## The 12-Step Modernization Path
 
-A service-level framework defines how quickly technology teams acknowledge and restore service based on business impact.
-
-- **Response time:** Time from reporting until a qualified resource acknowledges the issue and begins active work.
-- **Restoration or resolution time:** Time until service is restored through a permanent fix or an approved workaround.
-
-### Illustrative Service Targets
-
-| Priority | Business Impact | Target Response | Target Restoration | Executive Escalation |
-|---|---|---:|---:|---|
-| **P1 — Critical** | Enterprise-wide outage, safety concern, or major customer, financial, or regulatory impact | 30 minutes | 8 hours | Immediate; escalate at defined intervals |
-| **P2 — High** | Significant degradation or material business interruption | 1 business hour | 24 hours | Escalate when the target is at risk |
-| **P3 — Medium** | Limited impact with a workaround available | 8 business hours | 5 business days | Operational management |
-| **P4 — Low** | Minor issue, service request, or backlog item | Next business day | Next planning cycle | Not normally required |
-
-These targets are illustrative. Each organization should adjust them based on operating hours, criticality, contractual commitments, staffing, regulatory requirements, and its actual ability to restore service.
+| Foundation | Steps | Technical Outcome |
+|---|---:|---|
+| **People and Governance** | 1–3 | Align outcomes and sponsorship, define ownership and decision rights, and distribute knowledge |
+| **Process and Controls** | 4–7 | Establish transparent intake, service levels, risk-based delivery, portfolio governance, and measures |
+| **Technology Visibility** | 8–9 | Build the technology repository and map critical services, dependencies, integrations, and data flows |
+| **Portfolio and Architecture** | 10–11 | Rationalize applications and define current, target, and transition architectures |
+| **AI-Enabled Modernization** | 12 | Establish governed AI capabilities for discovery, engineering, testing, migration, knowledge, and operations |
 
 ---
 
-## Unified Intake Flow
+## Guide Sections
 
-| Step | Flow |
-|---:|---|
-| **1** | A user submits a request through the approved work-management or service channel. |
-| **2** | An analyst or lead validates completeness, business outcome, impact, urgency, data sensitivity, ownership, and routing. |
-| **3** | The work is classified as an incident, enhancement, architecture change, data or AI request, or major program. |
-| **4** | Incidents follow priority-based response, diagnosis, testing, business validation, controlled deployment, and closure. |
-| **5** | Enhancements are estimated and delivered through planned increments with quality, security, architecture, and business acceptance proportional to risk. |
-| **6** | Requests exceeding the organization’s agreed size, cost, architecture impact, risk, or duration threshold move into portfolio governance. |
+### 1. [People and Governance](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/01-people-and-governance)
 
----
+Steps 1–3 establish executive sponsorship, ownership, decision rights, knowledge coverage, roles, RACI, and production accountability.
 
-## Annual Technology Portfolio Planning
+### 2. [Process and Controls](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/02-process-and-controls)
 
-Technology demand should be reviewed as a portfolio rather than as a sequence of isolated requests.
+Steps 4–7 create unified intake, service levels, risk-based delivery paths, portfolio governance, and measurable performance.
 
-An annual planning cycle, supported by quarterly refreshes, allows executives to compare investment, dependencies, architecture impact, capacity, cost, risk, and strategic value in one decision forum.
+### 3. [Technology Visibility](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/03-technology-visibility)
 
-| Stage | Executive Purpose |
-|---|---|
-| **Stage 1 — Intake** | Business units submit anticipated technology needs for the planning horizon. |
-| **Stage 2 — Standard Business Case** | Each request states the objective, expected value, urgency, proposed approach, dependencies, architecture impact, risk, priority, multiyear cost, and measurable outcome. |
-| **Stage 3 — Cross-Functional Review** | Technology, finance, security, architecture, data, operations, and business leaders evaluate requests using common criteria. |
-| **Stage 4 — Decision** | Leadership approves, defers, reshapes, combines, or declines each request. |
-| **Stage 5 — Sequencing and Readiness** | Approved work is sequenced based on value, risk, dependencies, capacity, target architecture, and organizational readiness. |
+Steps 8–9 build the technology asset repository and connect business services to applications, data, integrations, infrastructure, owners, cost, risk, and recovery.
 
-### Portfolio Decision Criteria
+### 4. [Portfolio and Architecture](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/04-portfolio-and-architecture)
 
-- Strategic alignment and business-capability value
-- Customer and employee impact
-- Revenue enablement, cost reduction, or productivity improvement
-- Operational resilience and risk reduction
-- Regulatory, security, privacy, data, and compliance requirements
-- Architecture fit and dependencies
-- Delivery feasibility and organizational readiness
-- Total cost of ownership
-- AI and model cost, where applicable
-- Measurable benefits
-- Opportunity cost and impact on committed work
+Steps 10–11 rationalize the application portfolio and define the target and transition architectures required for controlled modernization.
+
+### 5. [AI-Enabled Modernization](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/05-ai-enabled-modernization)
+
+Step 12 embeds governed AI across discovery, assessment, design, build, test, migration, operations, observability, and cost control.
+
+### 6. [Implementation Roadmap](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/06-implementation-roadmap)
+
+The Crawl–Walk–Run roadmap translates the 12 steps into phased execution, first-90-day actions, governance cadence, exit criteria, and an executive checklist.
 
 ---
 
-## Executive Performance Measures
+## Expected Business Outcomes
 
-| Category | Example Measures |
-|---|---|
-| **Reliability** | Availability, critical incidents, mean time to restore, recurring incidents, and recovery readiness |
-| **Delivery** | Commitment reliability, lead time, milestone variance, deployment frequency, and backlog aging |
-| **Quality** | Escaped defects, change-failure rate, automated test coverage, security defects, and rework |
-| **Financial** | Run/change spend, forecast variance, total cost of ownership, cost avoidance, benefit realization, and AI usage cost |
-| **Risk** | Critical vulnerabilities, unsupported assets, resilience gaps, audit findings, and data or AI control exceptions |
-| **People** | Critical-role coverage, skills development, knowledge documentation, retention, and succession readiness |
-
----
-
-## Outcomes
-
-- Business and technology teams see one transparent demand portfolio.
-- Work is prioritized using measurable business impact.
-- Low-risk changes move faster through preapproved paths.
-- Higher-risk changes receive appropriate architecture, security, quality, data, and business review.
-- Leadership understands capacity, funding, dependencies, and investment tradeoffs.
-- Delivery, operational performance, cost, risk, and benefits become measurable.
+- Faster and more predictable response to changing business priorities
+- Clear ownership for services, applications, data, architecture decisions, programs, and production changes
+- Transparent evaluation and sequencing of technology investments
+- Reduced operational risk, technical debt, duplication, and avoidable cost
+- Improved resilience through documented knowledge, dependency visibility, and succession coverage
+- A controlled path from the current estate to target and transition architectures
+- AI-enabled engineering and operations with security, human accountability, observability, and cost controls
 
 ---
 
-[← Previous: People and Governance](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/01-people-and-governance) | [Back to Overview](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness) | [Next: Technology Visibility →](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/03-technology-visibility)
+## What This Guide Produces
+
+- A clear sequence of modernization steps, technical outputs, decision gates, and expected outcomes
+- A governance structure connecting business, architecture, engineering, security, finance, data, and operations
+- A technical path from current-state visibility to rationalization, target architecture, AI enablement, and modernization waves
+- Operational controls that make the architecture executable
+- A repeatable approach that can be adapted to the organization’s size, industry, risk profile, and maturity
+
+---
+
+## Closing Principle
+
+> **AI does not replace the modernization architecture. AI increases the speed and quality of a modernization architecture that is already governed, observable, secure, and connected to business outcomes.**
+
+---
+
+**Ajay Sikha**  
+Executive Technology Leadership Portfolio
