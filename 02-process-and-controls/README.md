@@ -230,4 +230,4 @@ An annual planning cycle, supported by quarterly refreshes, allows executives to
 
 ---
 
-[← Previous: People and Governance](../01-people-and-governance/) | [Back to Overview](../) | [Next: Technology Visibility →](../03-technology-visibility/)
+[← Previous: People and Governance](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/01-people-and-governance) | [Back to Overview](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness) | [Next: Technology Visibility →](https://github.com/aksikha/Technology-Modernization-for-AI-Readiness/tree/main/03-technology-visibility)
